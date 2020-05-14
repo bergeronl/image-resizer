@@ -1,0 +1,26 @@
+{
+  "name": "@lbergeron/image-resizer",
+  "version": "0.1.0",
+  "description": "Command-line tool for resizing a set of images automatically.",
+  "main": "src/index.js",
+  "bin": {
+    "image-resizer": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bergeronl/image-resizer.git"
+  },
+  "author": "Luc Bergeron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bergeronl/image-resizer/issues"
+  },
+  "homepage": "https://github.com/bergeronl/image-resizer#readme",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "sharp": "^0.25.2"
+  }
+}
